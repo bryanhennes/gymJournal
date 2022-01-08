@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
         <activity
+            android:name=".Register"
+            android:exported="true" />
+        <activity
+            android:name=".Home"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

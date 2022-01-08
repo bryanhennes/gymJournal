@@ -1,5 +1,6 @@
 package com.example.gymjournal
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
@@ -62,6 +63,11 @@ class MainActivity : AppCompatActivity() {
                 passwordEditText.visibility = View.VISIBLE
                 passwordButton.visibility = View.VISIBLE
             }
+        }
+
+        //go to home if login successful
+        passwordButton.setOnClickListener {
+            startActivity(Intent(this@MainActivity, Home::class.java))
         }
 
 
