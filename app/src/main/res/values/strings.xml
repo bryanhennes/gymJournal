@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gym Journal</string>
+    <string name="loginTV">Login</string>
+    <string name="loginETHint">Email</string>
+    <string name="passwordETHint">Password</string>
+    <string name="checkPasswordButtonText">Login</string>
+</resources>
